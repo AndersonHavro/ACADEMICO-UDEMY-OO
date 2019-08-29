@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosInstancias"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExemplo02", "classesAtributosObjetosExemplo02\classesAtributosObjetosExemplo02.csproj", "{1A618923-FA26-4FB0-9E06-BF7B5771178C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExemplo01", "classesAtributosObjetosExemplo01\classesAtributosObjetosExemplo01.csproj", "{8387FE07-4312-4210-BF55-2F1BF439E5F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExemplo01", "classesAtributosObjetosExemplo01\classesAtributosObjetosExemplo01.csproj", "{8387FE07-4312-4210-BF55-2F1BF439E5F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExemploEstoque", "classesAtributosObjetosExemploEstoque\classesAtributosObjetosExemploEstoque.csproj", "{0A8ED9AF-C47F-4ECD-BAE1-4C8EF3A6E6F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExemploEstoque", "classesAtributosObjetosExemploEstoque\classesAtributosObjetosExemploEstoque.csproj", "{0A8ED9AF-C47F-4ECD-BAE1-4C8EF3A6E6F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao01", "classesAtributosObjetosExercicioFixacao01\classesAtributosObjetosExercicioFixacao01.csproj", "{B3E2046F-4004-4073-8CB4-AF648E568918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExercicioFixacao01", "classesAtributosObjetosExercicioFixacao01\classesAtributosObjetosExercicioFixacao01.csproj", "{B3E2046F-4004-4073-8CB4-AF648E568918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao02", "classesAtributosObjetosExercicioFixacao02\classesAtributosObjetosExercicioFixacao02.csproj", "{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B3E2046F-4004-4073-8CB4-AF648E568918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E2046F-4004-4073-8CB4-AF648E568918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E2046F-4004-4073-8CB4-AF648E568918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
