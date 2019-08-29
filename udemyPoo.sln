@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao03", "classesAtributosObjetosExercicioFixacao03\classesAtributosObjetosExercicioFixacao03.csproj", "{56487E7A-7C39-4F9D-B2A8-E54CC77610D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao04", "classesAtributosObjetosExercicioFixacao04\classesAtributosObjetosExercicioFixacao04.csproj", "{720DD324-0760-4762-AACC-A5802C65D702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{56487E7A-7C39-4F9D-B2A8-E54CC77610D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56487E7A-7C39-4F9D-B2A8-E54CC77610D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56487E7A-7C39-4F9D-B2A8-E54CC77610D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720DD324-0760-4762-AACC-A5802C65D702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720DD324-0760-4762-AACC-A5802C65D702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720DD324-0760-4762-AACC-A5802C65D702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720DD324-0760-4762-AACC-A5802C65D702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
