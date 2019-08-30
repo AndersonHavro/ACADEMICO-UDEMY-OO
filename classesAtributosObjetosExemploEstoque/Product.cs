@@ -10,6 +10,13 @@ namespace classesAtributosObjetosExemploEstoque
 
         public double Price { get; set; }
 
+        public Product(string name, int quantity, double price)
+        {
+            Name = name;
+            Quantity = quantity;
+            Price = price;
+        }
+
         public double ValorTotalEmEstoque()
         {
             return Quantity * Price;

@@ -6,14 +6,16 @@ namespace classesAtributosObjetosExemploEstoque
     {
         static void Main(string[] args)
         {
-            Product p1 = new Product();
+           
 
             Console.WriteLine("produto: ");
-            p1.Name = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.WriteLine("preco: ");
-            p1.Price = double.Parse(Console.ReadLine());
+           double price = double.Parse(Console.ReadLine());
             Console.WriteLine("quantidade: ");
-            p1.Quantity = int.Parse(Console.ReadLine());
+            int quantity = int.Parse(Console.ReadLine());
+
+            Product p1 = new Product(name,quantity,price);
 
             Console.WriteLine("Dados do produto: " + p1.ToString());
 
