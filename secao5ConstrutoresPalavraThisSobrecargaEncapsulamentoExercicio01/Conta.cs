@@ -7,7 +7,7 @@ namespace secao5ConstrutoresPalavraThisSobrecargaEncapsulamentoExercicio01
 {
     class Conta
     {
-        public int Numero { get; set; }
+        public int Numero { get; private set; }
         public string Nome { get; set; }
         public double Saldo { get; private set; }
 
@@ -16,29 +16,21 @@ namespace secao5ConstrutoresPalavraThisSobrecargaEncapsulamentoExercicio01
             Numero = numero;
             Nome = nome;
         }
-
-        public Conta(int numero, string nome, double depInicial)
+        public Conta(int numero, string nome, double depInicial) : this(numero, nome)
         {
-            Numero = numero;
-            Nome = nome;
             Saldo += depInicial;
         }
-
         public void Deposito(double valorDep)
         {
             Saldo += valorDep;
         }
         public void Saque(double valorSaque)
         {
-
-             Saldo = (-1*(valorSaque + 5)) + Saldo;
+            Saldo -= valorSaque + 5;
         }
-
         public override string ToString()
         {
             return "Conta " + Numero + ", Titular: " + Nome + ", Saldo: $ " + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
-
-
     }
 }
