@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExercicioFixacao01", "classesAtributosObjetosExercicioFixacao01\classesAtributosObjetosExercicioFixacao01.csproj", "{B3E2046F-4004-4073-8CB4-AF648E568918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao02", "classesAtributosObjetosExercicioFixacao02\classesAtributosObjetosExercicioFixacao02.csproj", "{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExercicioFixacao02", "classesAtributosObjetosExercicioFixacao02\classesAtributosObjetosExercicioFixacao02.csproj", "{0AB1AC8E-1CAE-4548-BEDA-4229C70ECA0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao03", "classesAtributosObjetosExercicioFixacao03\classesAtributosObjetosExercicioFixacao03.csproj", "{56487E7A-7C39-4F9D-B2A8-E54CC77610D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExercicioFixacao03", "classesAtributosObjetosExercicioFixacao03\classesAtributosObjetosExercicioFixacao03.csproj", "{56487E7A-7C39-4F9D-B2A8-E54CC77610D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classesAtributosObjetosExercicioFixacao04", "classesAtributosObjetosExercicioFixacao04\classesAtributosObjetosExercicioFixacao04.csproj", "{720DD324-0760-4762-AACC-A5802C65D702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classesAtributosObjetosExercicioFixacao04", "classesAtributosObjetosExercicioFixacao04\classesAtributosObjetosExercicioFixacao04.csproj", "{720DD324-0760-4762-AACC-A5802C65D702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secao5ConstrutoresPalavraThisSobrecargaEncapsulamentoExercicio01", "secao5ConstrutoresPalavraThisSobrecargaEncapsulamentoExercicio01\secao5ConstrutoresPalavraThisSobrecargaEncapsulamentoExercicio01.csproj", "{2F4BF6B6-5D5D-475F-9CB3-05E887CD2681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{720DD324-0760-4762-AACC-A5802C65D702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{720DD324-0760-4762-AACC-A5802C65D702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{720DD324-0760-4762-AACC-A5802C65D702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4BF6B6-5D5D-475F-9CB3-05E887CD2681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4BF6B6-5D5D-475F-9CB3-05E887CD2681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4BF6B6-5D5D-475F-9CB3-05E887CD2681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4BF6B6-5D5D-475F-9CB3-05E887CD2681}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
