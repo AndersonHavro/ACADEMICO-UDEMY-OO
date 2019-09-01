@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seção_6ArrayListasExercic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao_6ListasExercicioFixacao", "Secao_6ListasExercicioFixacao\Secao_6ListasExercicioFixacao.csproj", "{F7963EAD-4B63-4FD5-BE1D-C5EFFD5DB55B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao_6MatrizExemplo", "Secao_6MatrizExemplo\Secao_6MatrizExemplo.csproj", "{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F7963EAD-4B63-4FD5-BE1D-C5EFFD5DB55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7963EAD-4B63-4FD5-BE1D-C5EFFD5DB55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7963EAD-4B63-4FD5-BE1D-C5EFFD5DB55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
