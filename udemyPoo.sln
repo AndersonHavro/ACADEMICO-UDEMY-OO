@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seção_6ArrayListasExempo2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seção_6ArrayListasExercicio01", "Seção_6ArrayListasExercicio01\Seção_6ArrayListasExercicio01.csproj", "{4B266C85-C49A-461F-B792-2F5D3FFF3F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao_6ListasExercicioFixacao", "Secao_6ListasExercicioFixacao\Secao_6ListasExercicioFixacao.csproj", "{F7963EAD-4B63-4FD5-BE1D-C5EFFD5DB55B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao_6ListasExercicioFixacao", "Secao_6ListasExercicioFixacao\Secao_6ListasExercicioFixacao.csproj", "{F7963EAD-4B63-4FD5-BE1D-C5EFFD5DB55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao_6MatrizExemplo", "Secao_6MatrizExemplo\Secao_6MatrizExemplo.csproj", "{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao_6MatrizExemplo", "Secao_6MatrizExemplo\Secao_6MatrizExemplo.csproj", "{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao9Enumerações", "Secao9Enumerações\Secao9Enumerações.csproj", "{91879C21-4A46-420B-A3A2-BA08C90AA76A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2977DF3-8AA2-4D82-8DA3-35AF55848DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91879C21-4A46-420B-A3A2-BA08C90AA76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91879C21-4A46-420B-A3A2-BA08C90AA76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91879C21-4A46-420B-A3A2-BA08C90AA76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91879C21-4A46-420B-A3A2-BA08C90AA76A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
