@@ -18,7 +18,7 @@ namespace secao5ConstrutoresPalavraThisSobrecargaEncapsulamentoExercicio01
         }
         public Conta(int numero, string nome, double depInicial) : this(numero, nome)
         {
-            Saldo += depInicial;
+            Deposito(depInicial);
         }
         public void Deposito(double valorDep)
         {
