@@ -4,7 +4,11 @@ using System.Text;
 
 namespace secao9zExercicioFinal.Entites.Enums
 {
-    class OdersStatus
+    enum OdersStatus: int
     {
+        PENDING_PAYMENT,
+        PROCESSING,
+        SHIPPED,
+        DELIVERED
     }
 }

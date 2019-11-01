@@ -34,7 +34,9 @@ namespace secao9StringBuilder02.Entites
         {
             StringBuilder p = new StringBuilder();
             p.AppendLine(Title);
-            p.Append(Likes); p.Append("Likes - "); p.AppendLine(Momment.ToString("dd/MM/yyy HH:mm:SS"));
+            p.Append(Likes);
+            p.Append("Likes - ");
+            p.AppendLine(Momment.ToString("dd/MM/yyyy HH:mm:SS"));
             p.AppendLine("Comments: ");
             foreach (Comment c in Comments)
             {

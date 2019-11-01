@@ -36,5 +36,23 @@ namespace secao9zExercicioFinal.Entites
             }
             return PrecoTotal;
         }
+        public override string ToString()
+        {
+            StringBuilder st = new StringBuilder();
+
+            st.AppendLine("ORDER SUMMARY:");
+            st.Append("Order moment: ");
+            st.AppendLine(Momment.ToString("dd/MM/yyyy HH:mm:ss"));
+            st.Append("Order Status: ");
+            st.AppendLine(Convert.ToString(Status));
+            st.Append("Client: ");
+            st.AppendLine(Convert.ToString(Client));
+
+
+
+
+
+            return base.ToString();
+        }
     }
 }
