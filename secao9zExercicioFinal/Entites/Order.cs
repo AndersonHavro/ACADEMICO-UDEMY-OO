@@ -43,16 +43,18 @@ namespace secao9zExercicioFinal.Entites
             st.AppendLine("ORDER SUMMARY:");
             st.Append("Order moment: ");
             st.AppendLine(Momment.ToString("dd/MM/yyyy HH:mm:ss"));
-            st.Append("Order Status: ");
-            st.AppendLine(Convert.ToString(Status));
-            st.Append("Client: ");
-            st.AppendLine(Convert.ToString(Client));
-
-
-
-
-
-            return base.ToString();
+            st.Append("Order Status: "+ Status);
+            st.Append("Client: "+ Client);
+            st.AppendLine("Order Items:");
+            foreach (OrderItem Its in OrderItems)
+            {
+                st.Append(Its.Product + "," + Its.Price + ", Qunatity: " + Its.Quantity +
+                    ", SubTotal: $" + Its.SubTotal());
+            }
+           
+            
+                                          
+            return st.ToString();
         }
     }
 }
